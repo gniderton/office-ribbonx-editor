@@ -1,0 +1,35 @@
+<customUI xmlns="http://schemas.microsoft.com/office/office/1.0">
+    <ribbon>
+        <tabs>
+            <tab id="customTab" label="My Custom Tab">
+                <group id="groupHome" label="Home">
+                    <button id="btnHome" label="Home" onAction="ShowHomeSheets"/>
+                </group>
+                <group id="groupPurchase" label="Purchase">
+                    <button id="btnPurchase" label="Purchase" onAction="ShowPurchaseSheets"/>
+                </group>
+                <group id="groupSales" label="Sales">
+                    <button id="btnSales" label="Sales" onAction="ShowSalesSheets"/>
+                </group>
+                <group id="groupStock" label="Stock">
+                    <button id="btnStock" label="Stock" onAction="ShowStockSheets"/>
+                </group>
+                <group id="groupProduct" label="Product">
+                    <button id="btnProduct" label="Product" onAction="ShowProductSheets"/>
+                </group>
+                <group id="groupIncomeExpenses" label="Income and Expenses">
+                    <button id="btnIncomeExpenses" label="Income and Expenses" onAction="ShowIncomeExpensesSheets"/>
+                </group>
+                <group id="groupInternalTransfer" label="Internal Transfer">
+                    <button id="btnInternalTransfer" label="Internal Transfer" onAction="ShowInternalTransferSheets"/>
+                </group>
+                <group id="groupAccounts" label="Accounts">
+                    <button id="btnAccounts" label="Accounts" onAction="ShowAccountsSheets"/>
+                </group>
+                <group id="groupReports" label="Reports">
+                    <button id="btnReports" label="Reports" onAction="ShowReportsSheets"/>
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
